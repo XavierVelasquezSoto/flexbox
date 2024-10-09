@@ -27,3 +27,18 @@ body {
   margin: 0;
   font-family: sans-serif;
 }
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  width: 700px;
+  height: 500px;
+  background-color: purple;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  font-size: 40px;
+}

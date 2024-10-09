@@ -35,6 +35,13 @@ body {
 .top{
   padding: 85px 32px 76px 32px;
 }
+
+@media screen and (width>768px) {
+  .top{
+    
+  }
+}
+
 .title{
   font-weight: 200;
   font-size: 24px;
@@ -73,11 +80,16 @@ body {
   }
 .container{
     background-color: #fff;
+    padding: 0 32px 25px 32px;
+    display: inline-block;
 }
 
-.container{
-  padding: 0 32px 25px 32px;
+@media screen and (width>768px){
+  .container{
+  }
 }
+
+
 
 .box-1{
   box-shadow: 0 -5px 0 0 #00C8C8, 0 0px 50px 10px #DADAE5;

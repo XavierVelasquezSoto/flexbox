@@ -32,13 +32,16 @@ body {
 
 }
 
+
 .top{
   padding: 85px 32px 76px 32px;
+
 }
 
 @media screen and (width>768px) {
   .top{
-    
+    padding: 80px 450px 0 450px;
+            
   }
 }
 
@@ -46,12 +49,14 @@ body {
   font-weight: 200;
   font-size: 24px;
   color: #4D4F62;
+  text-align: center;
 
 }
 .subtitle1{
   font-size: 24px;
   font-weight: 600;
-  color: #4D4F62
+  color: #4D4F62;
+  text-align: center;
 }
 
 .text-head{
@@ -59,6 +64,7 @@ body {
   color: hsl(234 12% 34%/0.50);
   line-height: 25px;
   font-size: 15px;
+  text-align: center;
 }
 .subtitle2{
   font-weight: 600;
@@ -81,32 +87,26 @@ body {
 .container{
     background-color: #fff;
     padding: 0 32px 25px 32px;
-    display: inline-block;
 }
-
-@media screen and (width>768px){
-  .container{
-  }
-}
-
 
 
 .box-1{
   box-shadow: 0 -5px 0 0 #00C8C8, 0 0px 50px 10px #DADAE5;
   border-radius: 5px;
-  margin-bottom: 25px
+  margin-bottom: 25px;
+  
 }
 
 .box-2{
   box-shadow: 0 -5px 0 0 #FF637B, 0 0px 50px 10px #DADAE5;
   border-radius: 5px;
-  margin-bottom: 25px
+  margin-bottom: 25px;
 }
 
 .box-3{
   box-shadow: 0 -5px 0 0 #FDBF00, 0 0px 50px 10px #DADAE5;
   border-radius: 5px;
-  margin-bottom: 25px
+  margin-bottom: 25px;
 }
 
 .box-4{
@@ -122,3 +122,4 @@ body {
   left: 270px;
   bottom: 28px;
 }
+
